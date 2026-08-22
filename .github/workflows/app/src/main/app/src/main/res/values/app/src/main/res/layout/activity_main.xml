@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free Screen Recorder"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Spinner
+        android:id="@+id/resolutionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/fpsSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/audioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Audio: Internal + Microphone"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START RECORDING"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:enabled="false"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:enabled="false"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:enabled="false"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
